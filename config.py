@@ -31,7 +31,7 @@ QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "10"))
 
 API_URL = getenv("API_URL", 'https://teaminflex.xyz')
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", 'INFLEX93454428D')
+API_KEY = getenv("API_KEY", 'INFLEX96210728D')
 
 
 ## Fill these variables if you're deploying on heroku.
@@ -182,6 +182,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
